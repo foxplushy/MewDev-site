@@ -1,5 +1,6 @@
 html,
 body {
+  scrollbar-width: none;
   margin: 0;
   font-family: "Silkscreen", sans-serif;
   image-rendering: pixelated;
