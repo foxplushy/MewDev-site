@@ -81,9 +81,11 @@ body {
         z-index: -99;
     }
 
+
     .content {
         display: flex;
         flex-direction: column;
+
     }
 
 
@@ -166,6 +168,25 @@ body {
         width: 71.875vw;
         color: $lightestBlue;
         -webkit-text-stroke: 0.1vw $blue;
+    }
+
+    .priceList {
+        position: absolute;
+        align-self: center;
+        margin-top: 246.875vw;
+        width: 65.625vw;
+        height: 112.5vw;
+    }
+
+    .price {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        height: 18.75vw;
+        width: 100%;
+        color:$lightBlue;
     }
 
 

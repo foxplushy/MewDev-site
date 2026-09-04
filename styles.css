@@ -128,4 +128,21 @@ body {
     color: #006f73;
     -webkit-text-stroke: 0.1vw #082429;
   }
+  .priceList {
+    position: absolute;
+    align-self: center;
+    margin-top: 246.875vw;
+    width: 65.625vw;
+    height: 112.5vw;
+  }
+  .price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    height: 18.75vw;
+    width: 100%;
+    color: #06424d;
+  }
 }/*# sourceMappingURL=styles.css.map */
