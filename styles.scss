@@ -80,7 +80,7 @@ body {
         z-index: -99;
     }
 
-    .content{
+    .content {
         display: flex;
         flex-direction: column;
     }
@@ -126,6 +126,7 @@ body {
         margin-top: 100vw;
         height: 75vw;
         width: 100vw;
+        max-width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
