@@ -143,6 +143,11 @@ body {
     text-align: center;
     height: 18.75vw;
     width: 100%;
-    color: #06424d;
+  }
+  .price > h1 {
+    color: #006f73;
+  }
+  .price > h2 {
+    color: #c8cf9f;
   }
 }/*# sourceMappingURL=styles.css.map */

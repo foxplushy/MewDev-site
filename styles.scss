@@ -186,7 +186,16 @@ body {
         text-align: center;
         height: 18.75vw;
         width: 100%;
-        color:$lightBlue;
+
+    }
+
+    .price>h1 {
+        color: $lightestBlue;
+
+    }
+    .price>h2 {
+        color: $lightBone;
+
     }
 
 
