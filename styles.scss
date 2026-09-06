@@ -57,7 +57,43 @@ body {
 
 // 1,5625 = 1 px 1
 
-@media (min-aspect-ratio: 16/10) {}
+@media (min-aspect-ratio: 16/10) {
+    body {
+        height: 300vw;
+        width: 100vw;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .background {
+        width: 100vw;
+        height: 300vw;
+        max-width: 100%;
+        background-image: url(images/Backgrounds/pc.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -5;
+    }
+
+    .souls {
+        width: 25vw;
+        height: 25vw;
+        position: absolute;
+        background-image: url(images/Backgrounds/souls.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-self: center;
+        margin-top: 64.0625vw;
+        z-index: -6;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+
+}
 
 @media (max-aspect-ratio: 16/10) and (min-aspect-ratio: 12/10) {
     body {
