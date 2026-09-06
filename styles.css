@@ -20,7 +20,7 @@ body {
   display: flex;
 }
 
-.content {
+.mobile {
   display: flex;
   width: 100%;
 }
@@ -56,10 +56,6 @@ body {
     background-size: cover;
     z-index: -5;
   }
-  .entrance {
-    width: 100vw;
-    height: 100vw;
-  }
   .souls {
     width: 25vw;
     height: 25vw;
@@ -67,9 +63,12 @@ body {
     background-image: url(images/Backgrounds/souls.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 37.5vw;
+    justify-self: center;
     margin-top: 64.0625vw;
     z-index: -6;
+  }
+  .mobile {
+    display: none;
   }
 }
 @media (max-aspect-ratio: 12/10) {
@@ -89,13 +88,14 @@ body {
     background-size: cover;
     z-index: -99;
   }
-  .content {
+  .mobile {
     display: flex;
     flex-direction: column;
   }
   .images1 {
     position: relative;
     display: flex;
+    align-self: center;
     align-items: center;
     justify-content: center;
     padding-top: 14.0625vw;
